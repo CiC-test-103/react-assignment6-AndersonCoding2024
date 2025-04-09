@@ -49,6 +49,24 @@ h1, h2, h3, h4, h5, h6 {
 /** Global CSS **/
 /* We recommend writing minimal component-specific CSS here */
 
+body {
+  background-color: var(--clr-lightGrayishBlue);
+  color: var(--clr-veryDarkGrayishBlue);
+  font-family: var(--ff-base);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 
 /** Attribution CSS **/
 .attribution { 
